@@ -1,22 +1,34 @@
-# A love calculator!
+# LOVE CALCULATOR
 
-print("Welcome to the Love Calculator!\n")
+print("Welcome to the Love Calculator!")
 
-my_name = input("What is your name? (Write full names for better scores)\n").lower()
-their_name = input("What is their name?\n").lower()
+name1 = input("What is your name? (Write your \
+full names to get a better chance)\n").lower()
+name2 = input("What is their name?\n").lower()
 
-names = my_name + their_name
-true = names.count('t') + names.count('r') + names.count('u') + names.count('e')
-love = names.count('l') + names.count('o') + names.count('v') + names.count('e')
+both_names = name1 + name2
 
-print(f"True total is: {true}")
-print(f"Love total is: {love}")
-score = int(str(true) + str(love))
+t = both_names.count('t')
+r = both_names.count('r')
+u = both_names.count('u')
+e = both_names.count('e')
 
-if score  < 10 or score > 90:
-    print(f"Your love score is {score}, you go \
-    together like mentos and coke")
-elif 40 <= score <= 50:
-    print(f"Your love score is {score}, you are alright together")
+true = t + r + u + e
+print(true)
+
+l = both_names.count('l')
+o = both_names.count('o')
+v = both_names.count('v')
+e = both_names.count('e')
+
+love = l + o + v + e
+print(love)
+
+love_score = int(str(true) +str(love))
+
+if love_score < 10 or love_score > 90:
+    print(f"Your love score is {love_score}, you go together like mentos and coke")
+elif 40 <= love_score <= 50:
+    print(f"Your love score is {love_score}, you are alright together. ")
 else:
-    print(f"Your love score is {score}")
+    print(f"Your love score is {love_score}")

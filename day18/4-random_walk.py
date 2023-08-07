@@ -8,7 +8,7 @@ turtle.colormode(255)
 
 
 def random_color():
-    """Generates a random RGB sequence color for out turtle"""
+    """Generates a random RGB sequence color for our turtle"""
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)

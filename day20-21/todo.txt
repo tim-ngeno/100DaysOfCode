@@ -1,0 +1,9 @@
+# Building the snake game
+
+TODO 1. Create the snake body
+TODO 2. Move the snake
+TODO 3. Control the snake (turning)
+TODO 4. Detect collision with food
+TODO 5. Keep track of scores
+TODO 6. Detect collision with the wall
+TODO 7. Detect collision with tail

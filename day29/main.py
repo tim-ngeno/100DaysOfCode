@@ -62,6 +62,8 @@ def save_details():
                 file.write(f'{website} | {email} | {password}\n')
                 website_entry.delete(0, tkinter.END)
                 password_entry.delete(0, tkinter.END)
+        messagebox.showinfo(title=website,
+                            message=f'Adding {website} success!')
     else:
         return
 

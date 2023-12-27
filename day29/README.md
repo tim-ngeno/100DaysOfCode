@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 
 ## Introduction
@@ -27,24 +26,10 @@ Welcome to the Password Manager, a Python application designed to help users sec
 - Logo display using Tkinter canvas.
 - Option to auto-fill email field with a default value.
 
-## Installation
-
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/password-manager.git
-   ```
-
-2. Change to the project directory.
-   ```bash
-   cd password-manager
-   ```
-
-3. Install the required dependencies.
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Usage
+
+Clone the repository and `cd` into the folder `100DaysOfCode/day29`, install
+dependencies, `pip install -r requirements.txt`
 
 1. Run the application.
    ```bash
